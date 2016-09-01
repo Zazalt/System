@@ -1,0 +1,38 @@
+{
+    "name": "zazalt/system",
+    "description": "System",
+    "homepage": "https://github.com/Zazalt/System",
+    "keywords": [
+        "string"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zazalt",
+            "email": "example@example.com",
+            "homepage": "https://github.com/Zazalt/System"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zazalt\\System\\": "src/"
+        }
+    },
+    "extra": {
+        "zazalt": {
+            "language": "php",
+            "title": "System",
+            "description": [
+                "System is a PHP library/package for directories and files manipulation."
+            ],
+            "github": "Zazalt",
+            "repository": "System",
+            "version": "beta",
+            "generateUsage": true,
+            "examples": false
+        }
+    }
+}

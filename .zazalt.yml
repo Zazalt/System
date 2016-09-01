@@ -1,0 +1,13 @@
+language:   php
+
+title:      System
+
+description:
+    - System is a PHP library/package for directories and files manipulation.
+
+github:     System
+
+requirements:
+    - PHP >= 5.4
+
+generateUsage:  true
