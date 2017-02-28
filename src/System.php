@@ -10,7 +10,7 @@ class System
      * @param   string  $directory
      * @return  boolean
      */
-    public function recursiveCreateDirectory($directory)
+    public function recursiveCreateDirectory($directory): bool
     {
         if(!is_dir($directory)) {
             if(!mkdir($directory, 0777, true)) {

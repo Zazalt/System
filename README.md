@@ -13,7 +13,7 @@ System is a PHP library/package for directories and files manipulation.
 
 Requirements
 ---------------
-* php >= 5.4.0
+* php >= 7.1.0
 
 Packagist Dependencies
 ---------------
