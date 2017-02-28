@@ -2,12 +2,14 @@
 
 namespace Zazalt\System\Tests;
 
+use Zazalt\System\System;
+
 class SystemTest extends \Zazalt\System\Tests\ZazaltTest
 {
     protected $that;
 
     public function __construct()
     {
-        parent::loader($this, []);
+        parent::loader(System::class, []);
     }
 }

@@ -10,7 +10,7 @@ class System
      * @param   string  $directory
      * @return  boolean
      */
-    public function recursiveCreateDirectory($directory): bool
+    public function recursiveCreateDirectory(string $directory): bool
     {
         if(!is_dir($directory)) {
             if(!mkdir($directory, 0777, true)) {
@@ -30,7 +30,7 @@ class System
      * @param type $removeParrentDir
      * @return boolean
      */
-    public function recursiveDelete($str, $removeParrentDir = true)
+    public function recursiveDelete(string $str, boolean $removeParrentDir = true): bool
     {
         if(is_file($str)) {
             return @unlink($str);
