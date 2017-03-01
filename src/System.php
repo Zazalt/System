@@ -30,10 +30,11 @@ class System
      * @param type $removeParrentDir
      * @return boolean
      */
-    public function recursiveDelete(string $str, boolean $removeParrentDir = true): bool
+    public function recursiveDelete(string $str, boolean $removeParrentDir = true)
     {
         if(is_file($str)) {
             return @unlink($str);
+
         } elseif(is_dir($str)) {
             $scan = glob(rtrim($str, '/') . '/*');
 
